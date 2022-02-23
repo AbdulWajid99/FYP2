@@ -6,8 +6,6 @@ import shutil
 
 app = FastAPI()
 
-
-
 @app.get("/")
 def index():
     return{"Welcome to PAKPLANTS"}
@@ -28,3 +26,9 @@ def mask(file: UploadFile =File(...)):
     return{round(green_perc,3)}
 
 
+
+#        curl -X 'POST' \
+#       'http://localhost:8000/percent' \
+#      -H 'accept: application/json' \
+#     -H 'Content-Type: multipart/form-data' \
+#    -F 'file=@wh0051.jpg;type=image/jpeg'
