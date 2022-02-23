@@ -1,5 +1,43 @@
+anyio==3.5.0
+asgiref==3.5.0
+backcall==0.2.0
+certifi==2020.6.20
+charset-normalizer==2.0.12
+click==8.0.4
+colorama @ file:///tmp/build/80754af9/colorama_1603211150991/work
+decorator==4.4.2
+docopt==0.6.2
 fastapi==0.74.1
+gunicorn==20.1.0
+h11==0.13.0
+idna==3.3
+ipykernel @ file:///C:/ci/ipykernel_1596190155316/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1598865816163/work
+ipython_genutils==0.2.0
+jedi @ file:///C:/ci/jedi_1644315425835/work
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
+jupyter-core==4.6.3
 numpy==1.22.2
-opencv_python==4.5.5.62
+opencv-python==4.5.5.62
+parso @ file:///tmp/build/80754af9/parso_1596826841367/work
+pickleshare==0.7.5
+pipreqs==0.4.11
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
+pydantic==1.9.0
+Pygments @ file:///tmp/build/80754af9/pygments_1600458456400/work
+python-dateutil==2.8.1
+python-multipart==0.0.5
+pywin32==227
+pyzmq==19.0.2
+requests==2.27.1
+six==1.15.0
+sniffio==1.2.0
+starlette==0.17.1
+tornado==6.0.4
+traitlets @ file:///tmp/build/80754af9/traitlets_1602787416690/work
+typing_extensions==4.1.1
+urllib3==1.26.8
 uvicorn==0.17.5
-python-multipart
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+wincertstore==0.2
+yarg==0.1.9
