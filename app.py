@@ -25,6 +25,8 @@ def mask(file: UploadFile =File(...)):
     green_perc = green_perc*100
     return{round(green_perc,3)}
 
+if __name__ == "__main__":
+    uvicorn.run(app, debug=True)
 
 
 #        curl -X 'POST' \
