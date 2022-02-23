@@ -37,3 +37,4 @@ mccabe==0.6.1
 pylint==2.4.4
 websockets==8.1
 wrapt==1.11.2
+opencv-python-headless==4.2.0.32
