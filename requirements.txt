@@ -6,3 +6,4 @@ uvicorn==0.17.5
 starlette
 gunicorn
 python-multipart
+pip install Keras-Preprocessing==1.1.2
