@@ -1,4 +1,4 @@
-tensorflow-cpu
+tensorflow-cpu==2.3.1
 fastapi
 numpy
 Pillow
