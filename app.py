@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 
 
 # model import 
-model = tensorflow.keras.models.load_model("/app/model_final.h5")
+model = tensorflow.keras.models.load_model("/model_final.h5")
 # classes label
 index_to_label = {
     0: "Alstonia Scholaris",
