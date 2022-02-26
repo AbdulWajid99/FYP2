@@ -6,3 +6,4 @@ uvicorn
 starlette
 gunicorn
 python-multipart
+h5py

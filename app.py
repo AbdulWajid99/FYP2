@@ -9,7 +9,7 @@ from tensorflow.keras.preprocessing import image
 import os
 
 # model import 
-model_path = os.path.join('',"model_final.h5")
+model_path = os.path.join("","model_final.h5")
 model = tensorflow.keras.models.load_model(model_path)
 # classes label
 index_to_label = {
