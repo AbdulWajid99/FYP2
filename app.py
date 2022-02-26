@@ -6,10 +6,11 @@ import shutil
 import tensorflow
 from PIL import Image
 from tensorflow.keras.preprocessing import image
+import h5py
 
 
 # model import 
-model = tensorflow.keras.models.load_model("model_final")
+model = tensorflow.keras.models.load_model("model")
 # classes label
 index_to_label = {
     0: "Alstonia Scholaris",
